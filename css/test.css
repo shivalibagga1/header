@@ -1,0 +1,130 @@
+*{
+    margin: 0; padding: 0;list-style: none;box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100%;
+    height: 100%;
+}
+
+.mz-pageheader .container {
+    width: 100%;
+}
+
+/*global header*/
+#global-header-wrapper {
+    background: #0f032e;
+    height: 33px;
+    font-family: "MyriadPro-Regular",sans-serif;
+    position: relative;
+    display: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+    background: #333;
+    text-align: center;
+}
+
+.ml-header-global-include-close {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    bottom: auto;
+    left: auto;
+    margin-top: -10px;
+}
+
+.ml-icon-close {
+    border: 0;
+    background: transparent;
+    padding: 2px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.mz-headr-global-text {
+    color: #aee1f6;
+    line-height: 1.13;
+    margin-top: 3px;
+}
+
+.ml-header-links-wrapper {
+    width: 100%;
+}
+
+.mz-utilitynav-item{
+    display:inline-block;
+}
+
+.fa-caret-down:before{
+                        font-size: 18px;
+                    }  
+.mz-store-icon img {
+    margin: -6px 0 0 0;
+}
+
+.mz-free-shipping {
+   
+}
+
+.ml-header-logo-wrapper {
+    /*float:left;*/
+    width: 50%;
+    margin: 0 auto;
+} 
+
+.ml-header-logo-wrapper a{
+    display: block;
+    margin: auto;
+    width: 50%;
+}   
+
+.ml-header-logo-wrapper svg {
+    width: 130px;
+    height: 57px;
+}
+
+.mz-logo-color {
+    fill: #ec008c;
+}
+
+media only screen and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+        .mz-pageheader .container {
+        width: 76%;
+    }
+
+    .mz-utilitynav {
+        float: left;
+    }
+
+    .mz-login-icon {
+        background: none;
+        width: inherit;
+        margin-top: -2px;
+    }
+
+    .mz-free-shipping a {
+        color: #0f032e;
+    }
+
+    .ml-header-logo-wrapper svg {
+        width: 201px;
+        height: 89px;
+    }
+}

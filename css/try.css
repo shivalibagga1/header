@@ -1,0 +1,455 @@
+*{
+    margin: 0; padding: 0;list-style: none;box-sizing: border-box;
+}
+
+html,body{
+    min-height: 100%;
+    height: 100%;
+}
+
+.mz-pageheader .container {
+    width: 100%;
+}
+
+/****************global header**************/
+#global-header-wrapper {
+    background: #0f032e;
+    height: 33px;
+    font-family: "MyriadPro-Regular",sans-serif;
+    position: relative;
+    display: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+    border-bottom: 1px solid #333;
+    background: #333;
+    text-align: center;
+}
+
+.ml-header-global-include-close {
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    bottom: auto;
+    left: auto;
+    margin-top: -10px;
+}
+
+.ml-icon-close {
+    border: 0;
+    background: transparent;
+    padding: 2px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.mz-headr-global-text {
+    color: #aee1f6;
+    line-height: 1.13;
+    margin-top: 3px;
+}
+
+/******************header links**********************/
+.ml-header-content {
+    /*position: relative;
+    width: 100%;
+    float: left;*/
+}
+
+.ml-header-links-wrapper {
+    width: 100%;
+    margin-top:10px;
+    position: relative;
+}
+
+.mz-utilitynav {
+                font-size: 13px;
+                /*margin-left: 0px;*/
+                font-family: MyriadPro-Regular,sans-serif;
+                /*float: left;*/
+            }    
+
+  .mz-utilitynav-item {
+                    padding: 0 11px 0 0;
+                    display:inline-block;
+                }
+
+.mz-utilitynav-item a{
+            color: #383333;
+            text-decoration: none;
+            cursor: pointer;
+}
+
+.mz-utilitynav-item a:hover{
+    text-decoration: none;
+    color: #383333;
+}
+
+ .mz-hamburger-container .glyphicon-menu-hamburger{
+            font-size:21px;
+        }
+    
+
+    .mz-login-icon{
+        position:absolute;
+        top: 24px;
+        left: 23px;
+        background: url('../images/login-user.png') no-repeat;
+        width: 16px;
+        height: 21px;
+    }
+
+ .fa-caret-down:before{
+                        font-size: 18px;
+                    } 
+
+.mz-store-icon{
+    position:absolute;
+    top: 30px;
+    left: 15px;
+    width: 23px;
+}
+
+.mz-store-icon img {
+    margin: -6px 0 0 0;
+}
+
+.mz-free-shipping {
+   clear:left;
+   text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mz-free-shipping a {
+        color: #0f032e;
+    }
+
+.mz-free-shipping a:hover{
+    color: #0f032e;
+    text-decoration: none;
+}
+
+.ml-header-logo-wrapper {
+    float:left;
+    width: 25%;
+    margin: 0 auto;
+} 
+
+.ml-header-logo-wrapper a{
+    display: block;
+    /*margin: auto;
+    width: 100%;*/
+    text-align: center;
+}   
+
+.ml-header-logo-wrapper svg {
+    width: 130px;
+    height: 57px;
+}
+
+.mz-logo-color {
+    fill: #ec008c;
+}
+
+/******************global cart***************/
+.ml-header-global-cart-wrapper{
+    float:left;
+} 
+
+.mz-utilitynav-link-cart {
+    color: #333;
+    float: right;
+}
+
+.ml-header-global-cart-wrapper .ml-icon {
+    background: url('../images/bag-icon.png');
+        background-size: auto auto;
+    background-size: 16px 23px;
+}  
+
+.ml-icon-global-cart{
+    float:left;
+     width: 16px;
+    height: 22px;
+}
+
+.ml-header-global-cart-count {
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 8px 0 8px 6px;
+}
+
+.ml-header-global-cart-text{
+  float:left;  
+}
+
+.ml-header-global-cart-label {
+    display: none;
+}
+
+.ml-header-global-cart-price {
+    float:left;
+    font-size: 13px;
+    font-family: "Helvetica";
+}
+
+#global-cart {
+    display: none;
+    position: absolute;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    top: 35px;
+    right: 0;
+    width: 400px;
+    padding: 20px 15px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background: white;
+    z-index: 2;
+    border-radius: 3px;
+}
+
+#global-cart .arrow-up {
+    z-index: 3;
+    position: absolute;
+    top: -21px;
+    right: 35px;
+    margin-left: -10px;
+    width: 0px;
+    height: 0px;
+    border-color: transparent;
+        border-bottom-color: transparent;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    border-bottom-color: rgba(0,0,0,0.25);
+}
+
+ /******************Navigation***************/
+.mz-sitenav {
+    width: 100%;
+    border-bottom: 1px solid #9e9e9e;
+    background: #fff;
+}
+
+.mz-sitenav-link {
+    width: 100%;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+ .mz-sitenav-sub-container {
+    display: none;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    padding: 0 15px 15px 15px;
+    border: 1px solid rgba(0,0,0,0.15);
+    background: white;
+    z-index: 2;
+    border-radius: 3px;
+    -webkit-transition: visibility 0s ease-out 0s;
+    -moz-transition: visibility 0s ease-out 0s;
+    -ms-transition: visibility 0s ease-out 0s;
+    -o-transition: visibility 0s ease-out 0s;
+}
+
+ .sub-level-col {
+    float: none;
+    display: table-cell;
+    padding-top: 10px;
+}
+
+/******************Ipad VIEW***************/
+@media only screen and (min-width: 768px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .mz-pageheader .container {
+    width: 76%;
+}
+
+/******************header links**********************/
+    .ml-header-links-wrapper {
+    /*float: left;
+    padding: 10px 0 10px 0;*/
+}
+
+.mz-utilitynav { 
+    float: left;
+    /*margin-left: -20px;*/
+    padding-right: 0!important;
+}
+    .mz-utilitynav-item {
+            /*display: inline-block;
+            padding: 0 14px 0 0;
+            float: left;
+            font-size: 14px;*/
+        }
+
+    .navbar-collapse-control{
+                display:none;
+            }
+
+    .mz-login-icon {
+        background: none;
+        width: inherit;
+        margin-top: -2px;
+        position: static;
+    }
+
+    .mz-store-icon{
+    position: static;
+}
+
+     .mz-free-shipping {
+        /*padding: 41px 0 0 0;*/
+        clear:left;
+        text-align: left;
+        padding: 0 0 0 32px;
+        position: absolute;
+        top: 35px;
+    }
+
+    .ml-header-logo-wrapper {
+       /* position: absolute;
+        top: 0;
+        right: auto;
+        bottom: auto;
+        left: 50%;
+        transform: translate(-51%,0);*/
+        width: 50%;
+    }
+
+    .ml-header-logo-wrapper a{
+        /*width: 50%;*/
+    }
+
+    .ml-header-logo-wrapper svg {
+        width: 201px;
+        height: 89px;
+    }
+
+/******************global cart***************/
+    .ml-icon-global-cart {
+        width: 20px;
+        height: 28px;
+       }
+       .ml-header-global-cart-wrapper .ml-icon {
+        background-size: 21px 28px;
+    } 
+
+    .ml-header-global-cart-label {
+        display: none;
+    }
+
+    /******************Navigation***************/
+    .mz-sitenav {
+        display: block!important;
+        border-top: 1px solid #666;
+        border-bottom: 1px solid #666;
+        background: #9e9e9e;
+        /*height: 100%;*/
+    }
+
+    .mz-sitenav-item{
+        display: inline-block;
+    }
+
+    .mz-sitenav-link {
+        float: none;
+        padding: 6px 11px 5px;
+        /*color: #fff;*/
+    }
+
+    .mz-sitenav-sub-container {
+        display: block;
+        text-align: left;
+        position:absolute;
+    }
+
+    .sub-level-col {
+     width: 175px; 
+     min-width: 175px; 
+     float: left;
+}
+
+    .sub-level-col .mz-sitenav-item{
+       display: block; 
+    }
+
+
+.mz-sitenav .mz-sitenav-sub-container{
+    visibility: hidden;
+}
+
+.mz-sitenav-item:hover .mz-sitenav-sub-container {
+    visibility: visible;
+    }
+    
+
+}
+
+/******************DESKTOP VIEW***************/
+@media only screen and (min-width: 992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+
+/******************global cart***************/
+    .ml-header-global-cart-label{
+        display: inline-block;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        font-family: "Helvetica";
+        font-size: 13px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.54;
+        letter-spacing: 0.7px;
+        text-align: left;
+        color: #333;
+        float:left;
+    }
+
+    /******************Navigation***************/
+    .mz-sitenav {
+        max-height: 34px;
+        display: block!important;
+    }
+
+    .mz-sitenav-list>.mz-sitenav-item{
+        display: inline-table
+    }
+
+     .sub-level-col {
+    width: 225px;
+    min-width: 225px;
+}
+
+
+} 
