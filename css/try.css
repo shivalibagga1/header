@@ -372,7 +372,13 @@ html,body{
     .mz-sitenav-link {
         float: none;
         padding: 6px 11px 5px;
-        /*color: #fff;*/
+        color: #fff;
+    }
+
+    .mz-sitenav-link:hover{
+        color: #fff;
+        background: #666;
+        text-decoration: none;
     }
 
     .mz-sitenav-sub-container {
@@ -399,6 +405,11 @@ html,body{
 .mz-sitenav-item:hover .mz-sitenav-sub-container {
     visibility: visible;
     }
+
+.mz-sitenav-sub-container .mz-sitenav-link{
+    color: #000;
+}
+
     
 
 }
